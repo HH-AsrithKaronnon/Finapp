@@ -28,7 +28,7 @@ const routeTree = rootRoute.addChildren([
 ]);
 
 // Instantiate router
-export const router = createRouter({ routeTree });
+export const router = createRouter({ routeTree, basepath: '/Finapp' });
 
 // Register router for type safety
 declare module '@tanstack/react-router' {
